@@ -12,6 +12,8 @@ steps:
   - echo hello world 2
   - sleep 1
   - echo hello world 3
+  - sleep 1
+  - ls -l
  
 trigger:
   branch:
