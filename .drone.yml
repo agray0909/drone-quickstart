@@ -8,6 +8,10 @@ steps:
   image: busybox
   commands:
   - echo hello world
+  - sleep 1
+  - echo hello world 2
+  - sleep 1
+  - echo hello world 3
  
 trigger:
   branch:
